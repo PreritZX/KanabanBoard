@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(125, 123, 120);
+}
+
+.name{
+    color: white;
+}
+
+.toolbox-cont{
+    height: 5rem;
+    background-color: #4b4b4b;
+    display: flex;
+    align-items:center
+}
+
+.toolbox-cont > *{
+    margin-left: 4rem;
+}
+
+.toolbox-priority-cont{
+    height: 3.5rem;
+    background-color: #3d3d3d;
+    width: 18rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.toolbox-priority-cont > *:hover{
+    background-color: #4bb543;
+    cursor:pointer;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.action-btn-cont{
+    height: 3.5rem;
+    background-color: #3d3d3d;
+    width: 8rem;
+    display: flex;
+}
+
+.action-btn-cont > *{
+    display: flex;
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    align-items:center;
+}
+
+.add-btn:hover{
+    background-color: #4bb543;
+    cursor:pointer;
+}
+
+.remove-btn:hover{
+    background-color: #4bb543;
+    cursor:pointer;
+}
+
+.show-all-btn:hover{
+    background-color: #4bb543;
+    cursor:pointer;
+}
+
+.modal-cont{
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    top: 30%;
+    left:40%;
+    background-color: #4b4b4b;
+    display: flex;
+    border-radius: 3%;
+    display: none;
+}
+
+.textArea-cont{
+    background-color: rgb(252, 231, 223);
+    height: 100%;
+    width: 70%;
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.priority-color-container{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priority-colors{
+    height: 3rem;
+    width: 5rem;
+}
+
+.active{
+    border: 3px solid lightsalmon;
+}
+
+.main-cont{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.ticket-cont{
+    height: 12rem;
+    width: 15rem;
+    background-color: coral;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    background-color: lightslategrey;
+    height: 2rem;
+}
+
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 85px;
+    margin-right: 10px;
+    font-size: 2rem;
+}
